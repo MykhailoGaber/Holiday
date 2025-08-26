@@ -1,0 +1,19 @@
+.partners {
+  padding: 70px 0 55px;
+  &__container {
+    flex-direction: column;
+    @extend %flex-center;
+  }
+  &__title{
+  color: $colorTextSecondary;
+  text-align: center;
+  font-size: 22px;
+  padding-bottom: 20px; 
+  }
+  &__list{
+    @extend %flex-center;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 25px;
+  }
+}

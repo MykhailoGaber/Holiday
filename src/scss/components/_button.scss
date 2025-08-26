@@ -1,0 +1,10 @@
+.button {
+  padding: 11px 36px;
+  background-color: $colorBtn;
+  border-radius: 30px;
+}
+.button--invert{
+  background-color: $colorTextPrimary;
+  border: 2px solid $colorBtn;
+  color: $colorBtn;
+}
